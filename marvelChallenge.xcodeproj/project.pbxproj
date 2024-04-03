@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A3AC87E2BBD6F1A006D44B2 /* constantsForAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC87D2BBD6F1A006D44B2 /* constantsForAPI.swift */; };
+		2A3AC8812BBD7248006D44B2 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC8802BBD7248006D44B2 /* UIViewController+Extension.swift */; };
+		2A3AC8842BBD73A9006D44B2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC8832BBD73A9006D44B2 /* SwiftyJSON.swift */; };
+		2A3AC8882BBD7491006D44B2 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC8872BBD7491006D44B2 /* MBProgressHUD.m */; };
+		2A3AC88A2BBD76A4006D44B2 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC8892BBD76A4006D44B2 /* String+Extension.swift */; };
+		2A3AC88D2BBD7CD0006D44B2 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC88C2BBD7CD0006D44B2 /* Character.swift */; };
+		2A3AC8902BBD80FF006D44B2 /* characterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC88F2BBD80FF006D44B2 /* characterCell.swift */; };
+		2A3AC8922BBD9066006D44B2 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3AC8912BBD9066006D44B2 /* UIImageView+Extension.swift */; };
 		2A7A2F7C2BBAD254003BD90C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A2F7B2BBAD254003BD90C /* AppDelegate.swift */; };
 		2A7A2F7E2BBAD254003BD90C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A2F7D2BBAD254003BD90C /* SceneDelegate.swift */; };
 		2A7A2F802BBAD254003BD90C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A2F7F2BBAD254003BD90C /* ViewController.swift */; };
@@ -16,6 +24,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A3AC87D2BBD6F1A006D44B2 /* constantsForAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constantsForAPI.swift; sourceTree = "<group>"; };
+		2A3AC8802BBD7248006D44B2 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		2A3AC8832BBD73A9006D44B2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		2A3AC8852BBD7491006D44B2 /* marvelChallenge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "marvelChallenge-Bridging-Header.h"; sourceTree = "<group>"; };
+		2A3AC8862BBD7491006D44B2 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		2A3AC8872BBD7491006D44B2 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		2A3AC8892BBD76A4006D44B2 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		2A3AC88C2BBD7CD0006D44B2 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		2A3AC88F2BBD80FF006D44B2 /* characterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = characterCell.swift; sourceTree = "<group>"; };
+		2A3AC8912BBD9066006D44B2 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		2A7A2F782BBAD254003BD90C /* marvelChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marvelChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A7A2F7B2BBAD254003BD90C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A7A2F7D2BBAD254003BD90C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +55,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A3AC87C2BBD6EF0006D44B2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2A3AC87D2BBD6F1A006D44B2 /* constantsForAPI.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2A3AC87F2BBD721D006D44B2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2A3AC8802BBD7248006D44B2 /* UIViewController+Extension.swift */,
+				2A3AC8892BBD76A4006D44B2 /* String+Extension.swift */,
+				2A3AC8912BBD9066006D44B2 /* UIImageView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2A3AC8822BBD7370006D44B2 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				2A3AC8862BBD7491006D44B2 /* MBProgressHUD.h */,
+				2A3AC8872BBD7491006D44B2 /* MBProgressHUD.m */,
+				2A3AC8832BBD73A9006D44B2 /* SwiftyJSON.swift */,
+				2A3AC8852BBD7491006D44B2 /* marvelChallenge-Bridging-Header.h */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		2A3AC88B2BBD7CBF006D44B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A3AC88C2BBD7CD0006D44B2 /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A3AC88E2BBD80DE006D44B2 /* customCell */ = {
+			isa = PBXGroup;
+			children = (
+				2A3AC88F2BBD80FF006D44B2 /* characterCell.swift */,
+			);
+			path = customCell;
+			sourceTree = "<group>";
+		};
 		2A7A2F6F2BBAD254003BD90C = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +119,11 @@
 		2A7A2F7A2BBAD254003BD90C /* marvelChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				2A3AC88E2BBD80DE006D44B2 /* customCell */,
+				2A3AC88B2BBD7CBF006D44B2 /* Model */,
+				2A3AC8822BBD7370006D44B2 /* ThirdParty */,
+				2A3AC87F2BBD721D006D44B2 /* Extension */,
+				2A3AC87C2BBD6EF0006D44B2 /* Constants */,
 				2A7A2F7B2BBAD254003BD90C /* AppDelegate.swift */,
 				2A7A2F7D2BBAD254003BD90C /* SceneDelegate.swift */,
 				2A7A2F7F2BBAD254003BD90C /* ViewController.swift */,
@@ -99,6 +167,7 @@
 				TargetAttributes = {
 					2A7A2F772BBAD254003BD90C = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 				};
 			};
@@ -138,9 +207,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A3AC88D2BBD7CD0006D44B2 /* Character.swift in Sources */,
 				2A7A2F802BBAD254003BD90C /* ViewController.swift in Sources */,
 				2A7A2F7C2BBAD254003BD90C /* AppDelegate.swift in Sources */,
+				2A3AC87E2BBD6F1A006D44B2 /* constantsForAPI.swift in Sources */,
+				2A3AC88A2BBD76A4006D44B2 /* String+Extension.swift in Sources */,
+				2A3AC8902BBD80FF006D44B2 /* characterCell.swift in Sources */,
+				2A3AC8842BBD73A9006D44B2 /* SwiftyJSON.swift in Sources */,
+				2A3AC8922BBD9066006D44B2 /* UIImageView+Extension.swift in Sources */,
+				2A3AC8812BBD7248006D44B2 /* UIViewController+Extension.swift in Sources */,
 				2A7A2F7E2BBAD254003BD90C /* SceneDelegate.swift in Sources */,
+				2A3AC8882BBD7491006D44B2 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 92434FQTN2;
@@ -308,6 +386,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.palwork.marvelChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "marvelChallenge/ThirdParty/marvelChallenge-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,6 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 92434FQTN2;
@@ -336,6 +417,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.palwork.marvelChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "marvelChallenge/ThirdParty/marvelChallenge-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

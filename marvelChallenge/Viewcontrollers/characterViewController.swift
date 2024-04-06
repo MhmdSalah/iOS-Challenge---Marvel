@@ -33,11 +33,6 @@ class characterViewController: UIViewController {
         navigationController?.navigationBar.prefersLargeTitles = false
     }
     
-    func createGetRequest() {
-        let ts = Date().timeIntervalSince1970
-        print(ts)
-    }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showCharacter" {
             let detailVC = segue.destination as! detailsViewController

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class detailsViewController: UIViewController {
     
@@ -50,10 +51,27 @@ extension detailsViewController : UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        self.tableCellSelectAction(row: indexPath.row)
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
+    }
+    
+    func tableCellSelectAction(row:Int) {
+        let alertController = UIAlertController(title: "Options", message: "Which url do you want to open?", preferredStyle: .actionSheet)
+        let urls = comicsJSON[row]["urls"].arrayValue
+        for url in urls {
+            alertController.addAction(UIAlertAction(title: url["type"].stringValue, style: .default, handler: { act in
+                if let url = URL(string: url["url"].stringValue) {
+                    let safariVC = SFSafariViewController(url: url)
+                    self.present(safariVC, animated: true)
+                }
+            }))
+        }
+        alertController.addAction(UIAlertAction(title: "Cancel", style: .destructive, handler: nil))
+        self.present(alertController, animated: true)
     }
     
 }
